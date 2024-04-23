@@ -15,5 +15,6 @@ s1.numEven(15)
 s2.numEven(15)
 print(s1.counter, s1.counter2)
 
-# numEven 메서드에서 self.counter를 사용하려면 self를 메서드의 첫 번째 매개변수로 가져와야 합니다.
-# 매개변수로 호출해야지만, numEven 메소드에서 self를 통해 해당 인스턴스의 속성에 접근할 수 있습니다. 
+# 출력: 8 16
+# counter2( Sample.counter2 )는 해당 클래스에서 하나만 존재하고,수 = 전역 변수
+# self.counter은 각 객체마다 하나씩 존재 = 각 객체의 지역변수
